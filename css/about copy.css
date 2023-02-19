@@ -1,0 +1,296 @@
+/* colors  */
+/* colors  */
+/* Screens   */
+/* Screens */
+/* Commn Mixerws*/
+/* Commn Mixerws*/
+html, body {
+  margin: 0px;
+  padding: 0%;
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+.page_container_abt {
+  background-color: #272727 !important;
+  height: 100%;
+}
+
+body {
+  background-color: #272727;
+}
+
+@media screen and (max-width: 567px) {
+  .details_content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 50%;
+  }
+  .details_content_name_main {
+    color: #FF662F;
+    font-size: 3rem;
+  }
+  .details_content_name_desc {
+    color: white;
+  }
+  .details_content {
+    background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url(../assets/model-1.jpg) center top;
+    background-size: cover;
+  }
+  .details {
+    display: flex;
+    background-color: #272727;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 50%;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  .details_footer_social {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 2em;
+    gap: 1.1rem;
+    color: white;
+    position: fixed;
+    float: left;
+    bottom: 0;
+    min-width: 5vw;
+    margin-bottom: 2vh;
+  }
+  .details_footer_copy {
+    font-size: 1.5em;
+    color: white;
+    justify-content: center;
+    position: fixed;
+    right: -95;
+    bottom: 85;
+    margin-bottom: 1vh;
+    min-height: 5vw;
+    text-align: center;
+    transform: rotate(-90deg);
+  }
+  .details_items {
+    display: flex;
+    flex-direction: column;
+  }
+  .details_items_item {
+    display: flex;
+    background-color: rgb(65, 65, 65);
+    flex-direction: column;
+    padding: 2%;
+    margin-bottom: 2vh;
+    border-bottom: #FF662F solid 2px;
+  }
+  .details_items_item h2, h4, h5, p {
+    margin: 0%;
+  }
+  .details_items_item h2 {
+    margin-top: 1vh;
+    color: #FF662F;
+    margin-bottom: 2vh;
+  }
+  .details_items_item h4 {
+    margin-bottom: 2vh;
+    font-size: 2rem;
+    color: white;
+  }
+  .details_items_item h5 {
+    margin-bottom: 2vh;
+    font-size: 1rem;
+    color: white;
+  }
+  .details_items_item p {
+    color: white;
+  }
+}
+@media screen and (min-width: 526px) and (max-width: 992px) {
+  .page_Container {
+    padding-inline: 15px;
+    height: 100%;
+    background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url("../assets/model-1.jpg") center top;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+  }
+  .navBar {
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: -25px;
+    margin-right: -25px;
+    position: relative;
+    z-index: 10000;
+    opacity: 0.8;
+  }
+  .navBar_icon {
+    align-self: flex-start;
+    align-self: flex-end;
+    margin-right: 3vh;
+    color: white;
+  }
+  .navBar_items_item {
+    background-color: #272727;
+    font-size: 2rem;
+    color: white;
+    visibility: hidden;
+  }
+  .navBar_items_item:hover {
+    color: #FF662F;
+  }
+  .navBar_items::before {
+    color: #FF662F;
+  }
+  .navBar_items {
+    display: none;
+  }
+  .navBar_items_toggle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 3vh;
+    animation: 1s slideIn;
+    min-height: 100vh;
+  }
+  .navBar_item_items_toggle {
+    visibility: visible;
+    animation: 1s delay, textslideLeft 1s;
+    animation-delay: 0s, 1s;
+  }
+  .navBar_toggle {
+    background-color: #272727;
+  }
+  .content {
+    position: relative;
+    margin-top: 35vh;
+    text-align: center;
+  }
+  .content_name_small {
+    font-size: 1.5rem;
+    color: white;
+  }
+  .content_name_main {
+    font-size: 6rem;
+    color: white;
+  }
+  .content_name_main span {
+    color: #FF662F;
+    display: block;
+    font-weight: bold;
+    font-size: 6rem;
+  }
+  .content_name_desc {
+    border-top: white solid 2px;
+    padding-top: 1.5vh;
+    font-size: 1.5rem;
+    color: white;
+  }
+  .footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    color: white;
+    font-size: 24px;
+    margin: 0%;
+    margin-top: auto;
+    padding: 3%;
+  }
+}
+@media screen and (min-width: 992px) {
+  .page_Container {
+    padding-inline: 15px;
+    height: 100%;
+    background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url("../assets/model-1.jpg") center top;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+  }
+  .navBar {
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: -25px;
+    margin-right: -25px;
+    position: relative;
+    z-index: 10000;
+    opacity: 0.8;
+    transition: all 2s ease-in-out;
+  }
+  .navBar_icon {
+    align-self: flex-start;
+    align-self: flex-end;
+    margin-right: 3vh;
+    color: white;
+    display: none;
+  }
+  .navBar_items_item {
+    font-size: 1.2rem;
+    color: white;
+  }
+  .navBar_items_item:hover {
+    color: #FF662F;
+  }
+  .navBar_items::before {
+    color: #FF662F;
+  }
+  .navBar_items {
+    display: flex;
+    align-self: flex-end;
+    gap: 1vw;
+    margin-right: 5vw;
+    margin-top: 1vh;
+  }
+}
+.content {
+  position: relative;
+  margin-top: 35vh;
+  text-align: center;
+}
+
+.content_name_small {
+  font-size: 1.5rem;
+  color: white;
+}
+
+.content_name_main {
+  font-size: 6rem;
+  color: white;
+}
+.content_name_main span {
+  color: #FF662F;
+  display: inline;
+  font-weight: bold;
+  font-size: 6rem;
+  margin-left: 1vw;
+}
+
+.content_name_desc {
+  border-top: white solid 2px;
+  padding-top: 1.5vh;
+  font-size: 1.5rem;
+  color: white;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  color: white;
+  font-size: 2rem;
+  margin: 0%;
+  margin-top: auto;
+  padding: 3%;
+}/*# sourceMappingURL=about copy.css.map */

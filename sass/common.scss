@@ -1,0 +1,58 @@
+
+/* colors  */
+
+$primaryColor:'white';
+$hoverColor:#FF662F;
+
+/* colors  */
+
+
+/* Screens   */
+
+$mobileDisplay:567px;
+
+
+/* Screens */
+
+/* Commn Mixerws*/
+
+@mixin centerFlex($flexDirection){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: $flexDirection;
+}
+
+@mixin commonBg($bgColor){
+    background-color: $bgColor;
+}
+
+/* Commn Mixerws*/
+
+html,body{
+    margin: 0px;
+    padding: 0%;
+
+    width: 100vw;overflow-x: hidden;
+
+
+
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.active{
+    color: $hoverColor;
+
+   }
+
+   .active:hover{
+    color: white;
+   }
+
+
+ 
+

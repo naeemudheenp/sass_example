@@ -1,0 +1,773 @@
+@import 'common';
+@import 'about';
+
+
+    
+    @media screen and  (max-width:$mobileDisplay) {
+
+      .footer_social{
+        color: white;
+        font-size: 2rem;
+      }
+        
+        .page_Container{
+          
+            height: 100%;
+
+            background: -webkit-gradient(linear, left top, right top, from(rgba(39, 39, 39, 0.9)), to(rgba(39, 39, 39, 0.3))), url("../assets/model-1.jpg") center top;
+            background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url("../assets/model-1.jpg") center top;
+            background-size: cover;
+
+            display: flex;
+            flex-direction: column
+            
+        }
+
+        .navBar{
+            @include commonBg(transparent);
+            @include centerFlex(column);
+
+          
+           
+            
+          
+
+           
+
+           
+
+            position: relative;
+
+            z-index: 10000;
+
+            opacity: 0.8;
+
+         
+
+          
+        }
+
+        
+        .navBar_icon{
+          
+            align-self: flex-start;
+            
+            align-self: flex-end;
+           
+
+            margin-right: 3vh;
+
+            color: white;
+               }    
+        .navBar_items_item{
+          
+            @include commonBg(#272727);
+               
+          
+
+            font-size: 2rem;
+
+            color: white;
+
+        
+            visibility: hidden;;
+
+      
+         
+
+    
+        }   
+        
+     .navBar_items_item:hover{
+        color: $hoverColor;
+     }  
+
+     .navBar_items::before{
+        color: $hoverColor;
+     }
+     
+     
+     .navBar_items{
+        display: none;
+      }
+
+     .navBar_items_toggle{
+        @include centerFlex(column);
+        
+        gap: 3vh;
+
+        
+      
+        animation: 1s slideIn;
+
+        min-height: 100vh;
+     }
+
+     .navBar_item_items_toggle{
+       
+       visibility: visible;
+        animation: 1s delay ,textslideLeft 1s;
+        animation-delay: 0s, 1s;
+
+
+     }
+
+     .navBar_toggle{
+        @include commonBg(#272727);
+        
+     }
+
+     .content{
+        position: relative;
+
+        margin-top: 35vh;
+
+     
+
+        text-align: center;
+     }
+
+     .content_name_small{
+        font-size: 1.5rem;
+        color: white;
+     }
+
+     .content_name_main{
+        font-size: 4rem;
+        color: white;
+
+        span{
+            color: $hoverColor;
+            display: block;
+            font-weight: bold;
+            font-size: 4rem;
+        }
+     
+     }
+     .content_name_desc{
+        border-top: white solid 2px     ;
+        padding-top: 1.5vh;
+        font-size: 1.5rem;
+        color: white;
+      }  
+
+      .footer{
+     
+        @include centerFlex(row);
+        justify-content: space-between;
+        color: white;
+
+        font-size: 24px;
+        margin: 0%;
+        margin-top: auto;
+
+        padding: 3%;
+        
+   
+      
+      
+      }
+    .contact_content{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        flex-direction: column;
+
+
+     
+
+        margin-top: 25vh;
+
+        text-align: center;
+
+        h2{
+            color: white;
+            font-size: 3rem;
+        }
+    }
+
+    .content_email{
+      margin-top: 2vh;
+      color: white;
+      font-size: 1.5rem;
+      text-align: center;
+      width: 100%;
+  
+      ;
+    }
+
+    .customColor{
+      color: $hoverColor;
+    }
+
+    .content_phone>div:nth-child(2){
+      color: $hoverColor;
+      font-size: 1.0rem;
+    }
+
+    .content_phone{
+      margin-top: 2vh;
+      color: white;
+      font-size: 1.5rem;
+      text-align: center;
+      width: 100%;
+      
+      ;
+    }
+
+    .content_address>div:nth-child(2){
+      color: $hoverColor;
+      font-size: 1.0rem;
+    }
+
+    .content_address{
+      margin-top: 2vh;
+      color: white;
+      font-size: 1.5rem;
+      text-align: center;
+      width: 100%;
+     
+      ;
+    }
+
+    .content_address>div:nth-child(2){
+      color: $hoverColor;
+      font-size: 1.0rem;
+    }
+
+
+
+      
+
+
+       
+
+      
+
+    }
+
+        
+    @media screen and  (min-width:526px) and (max-width:992px) {
+        
+      .customColor{
+        color: $hoverColor;
+      }
+     
+      .footer_social{
+        color: white;
+        font-size: 2rem;
+      }
+        
+        .page_Container{
+          
+            height: 100%;
+
+            background: -webkit-gradient(linear, left top, right top, from(rgba(39, 39, 39, 0.9)), to(rgba(39, 39, 39, 0.3))), url("../assets/model-1.jpg") center top;
+            background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url("../assets/model-1.jpg") center top;
+            background-size: cover;
+
+            display: flex;
+            flex-direction: column
+            
+        }
+
+        .navBar{
+            @include commonBg(transparent);
+            @include centerFlex(column);
+
+          
+           
+            
+          
+
+           
+
+           
+
+            position: relative;
+
+            z-index: 10000;
+
+            opacity: 0.8;
+
+         
+
+          
+        }
+
+        
+        .navBar_icon{
+          
+            align-self: flex-start;
+            
+            align-self: flex-end;
+           
+
+            margin-right: 3vh;
+
+            color: white;
+               }    
+        .navBar_items_item{
+          
+            @include commonBg(#272727);
+               
+          
+
+            font-size: 2rem;
+
+            color: white;
+
+        
+            visibility: hidden;;
+
+      
+         
+
+    
+        }   
+        
+     .navBar_items_item:hover{
+        color: $hoverColor;
+     }  
+
+     .navBar_items::before{
+        color: $hoverColor;
+     }
+     
+     
+     .navBar_items{
+        display: none;
+      }
+
+     .navBar_items_toggle{
+        @include centerFlex(column);
+        
+        gap: 3vh;
+
+        
+      
+        animation: 1s slideIn;
+
+        min-height: 100vh;
+     }
+
+     .navBar_item_items_toggle{
+       
+       visibility: visible;
+        animation: 1s delay ,textslideLeft 1s;
+        animation-delay: 0s, 1s;
+
+
+     }
+
+     .navBar_toggle{
+        @include commonBg(#272727);
+        
+     }
+
+     .content{
+        position: relative;
+
+        margin-top: 35vh;
+
+     
+
+        text-align: center;
+     }
+
+     .content_name_small{
+        font-size: 1.5rem;
+        color: white;
+     }
+
+     .content_name_main{
+        font-size: 4rem;
+        color: white;
+
+        span{
+            color: $hoverColor;
+            display: block;
+            font-weight: bold;
+            font-size: 4rem;
+        }
+     
+     }
+     .content_name_desc{
+        border-top: white solid 2px     ;
+        padding-top: 1.5vh;
+        font-size: 1.5rem;
+        color: white;
+      }  
+
+      .footer{
+     
+        @include centerFlex(row);
+        justify-content: space-between;
+        color: white;
+
+        font-size: 24px;
+        margin: 0%;
+        margin-top: auto;
+
+        padding: 3%;
+        
+   
+      
+      
+      }
+    .contact_content{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        flex-direction: column;
+
+
+     
+
+        margin-top: 25vh;
+
+        text-align: left;
+
+        h2{
+            color: white;
+            font-size: 3rem;
+        }
+    }
+
+    .content_email{
+      margin-top: 2vh;
+      color: white;
+      font-size: 1.5rem;
+      text-align: center;
+      width: 100%;
+    
+      ;
+    }
+
+    .content_phone>div:nth-child(2){
+      color: $hoverColor;
+      font-size: 1.0rem;
+    }
+
+    .content_phone{
+      margin-top: 2vh;
+      color: white;
+      font-size: 1.5rem;
+      text-align: center;
+      width: 100%;
+  
+      ;
+    }
+
+    .content_address>div:nth-child(2){
+      color: $hoverColor;
+      font-size: 1.0rem;
+    }
+
+    .content_address{
+      margin-top: 2vh;
+      color: white;
+      font-size: 1.5rem;
+      text-align: center;
+      width: 100%;
+     
+      ;
+    }
+
+    .content_address>div:nth-child(2){
+      color: $hoverColor;
+      font-size: 1.0rem;
+    }
+
+
+
+      
+
+
+
+       
+
+      
+
+    }
+
+
+        
+    @media screen and   (min-width:993px) {
+      .customColor{
+        color: $hoverColor;
+        font-size: 1.5rem;
+      }
+
+
+      .footer_social{
+        margin-top: 4vh;
+        color: white;
+        font-size: 2rem;
+      }
+        
+        .page_Container{
+          
+            height: 100%;
+
+            background: -webkit-gradient(linear, left top, right top, from(rgba(39, 39, 39, 0.9)), to(rgba(39, 39, 39, 0.3))), url("../assets/model-1.jpg") center top;
+            background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url("../assets/model-1.jpg") center top;
+            background-size: cover;
+
+            display: flex;
+            flex-direction: column
+            
+        }
+
+        
+
+     
+     
+    
+
+    
+
+     .content{
+        position: relative;
+
+        margin-top: 35vh;
+
+     
+
+        text-align: center;
+     }
+
+     .content_name_small{
+        font-size: 1.5rem;
+        color: white;
+     }
+
+     .content_name_main{
+        font-size: 4rem;
+        color: white;
+
+        span{
+            color: $hoverColor;
+            display: block;
+            font-weight: bold;
+            font-size: 4rem;
+        }
+     
+     }
+     .content_name_desc{
+        border-top: white solid 2px     ;
+        padding-top: 1.5vh;
+        font-size: 1.5rem;
+        color: white;
+      }  
+
+      .footer{
+     
+        @include centerFlex(row);
+        justify-content: space-between;
+        color: white;
+
+        font-size: 24px;
+        margin: 0%;
+        margin-top: auto;
+
+        padding: 3%;
+        
+   
+      
+      
+      }
+
+      .contact_content_items{
+        display: flex;
+        flex-direction: row;
+
+        gap: 20vw;
+      }
+    .contact_content{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        flex-direction: column;
+
+
+     
+
+        margin-top: 25vh;
+
+        text-align: left;
+
+        h2{
+            color: white;
+            font-size: 3rem;
+        }
+    }
+
+    .content_email{
+      margin-top: 2vh;
+      color: white;
+      font-size: 2.0rem;
+      text-align: center;
+      width: 100%;
+    
+      ;
+    }
+
+  
+    .content_phone{
+      margin-top: 2vh;
+      color: white;
+      font-size: 2rem;
+      text-align: center;
+      width: 100%;
+  
+      ;
+    }
+
+ 
+
+    .content_address{
+      margin-top: 2vh;
+      color: white;
+      font-size: 2rem;
+      text-align: center;
+      width: 100%;
+     
+      ;
+    }
+
+    
+
+        
+        }
+
+      
+
+
+       
+
+      
+
+    
+
+
+
+    @keyframes slideIn {
+
+        0%   { min-height: 0vh;}
+        5%   { min-height: 5vh;}
+        10%  { min-height: 15vh;}
+        15%{    min-height: 20vh;}
+        20%{     min-height: 25vh;}
+        25%  { min-height: 30vh;}
+        30%{  min-height: 35vh;}
+        35%{  min-height: 40vh;}
+        40%{  min-height: 45vh;}
+        45%{   min-height: 50vh;}
+        50%  {  min-height: 55vh;}
+        55%{   min-height: 60vh;}
+        60%{   min-height: 65vh;}
+        65%{   min-height: 70vh;}
+        70%{    min-height: 75vh;}
+        75%  { min-height: 80vh;}
+        80%{  min-height: 85vh;}
+        85%{  min-height: 90vh;}
+        90%{  min-height: 95vh;}
+        100%{  min-height: 100vh;}
+     }
+
+     @keyframes textslideLeft {
+        0% {
+          translate: -100%;
+          opacity: 0;
+          visibility: visible !important;
+        }
+        5% {
+          translate: 95%;
+        }
+        10% {
+          translate: 90%;
+          opacity: 0.1;
+        }
+        15% {
+          translate: 85%;
+        }
+        20% {
+          translate: 80%;
+          opacity: 0.2;
+        }
+        25% {
+          translate: 75%;
+        }
+        30% {
+          translate: 70%;
+          opacity: 0.4;
+        }
+        35% {
+          translate: 65%;
+        }
+        40% {
+          translate: 60%;
+          opacity: 0.5;
+        }
+        45% {
+          translate: 55%;
+        }
+        50% {
+          translate: 50%;
+          opacity: 0.6;
+        }
+        55% {
+          translate: 45%;
+        }
+        60% {
+          translate: 40%;
+          opacity: 0.7;
+        }
+        65% {
+          translate: 35%;
+        }
+        70% {
+          translate: 30%;
+          opacity: 0.9;
+        }
+        75% {
+          translate: 25%;
+        }
+        80% {
+          translate: 20%;
+          opacity: 1;
+        }
+        85% {
+          translate: 15%;
+          opacity: 1;
+        }
+        90% {
+          translate: 15%;
+          opacity: 1;
+        }
+        100% {
+          translate: 0%;
+          opacity: 1 !important;
+          visibility: visible !important;
+        }
+      
+      }
+
+
+
+
+
+     @keyframes delay {
+        0%{
+          visibility: hidden;
+        }
+        100%{
+          visibility: hidden;
+        }
+       }
+
+

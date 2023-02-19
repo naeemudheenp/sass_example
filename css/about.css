@@ -1,0 +1,288 @@
+/* colors  */
+/* colors  */
+/* Screens   */
+/* Screens */
+/* Commn Mixerws*/
+/* Commn Mixerws*/
+html, body {
+  margin: 0px;
+  padding: 0%;
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+.page_container_abt {
+  background-color: #272727 !important;
+  height: 100%;
+}
+
+body {
+  background-color: #272727;
+}
+
+@media screen and (max-width: 567px) {
+  .details_content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 50%;
+  }
+  .details_content_name_main {
+    color: #FF662F;
+    font-size: 3rem;
+  }
+  .details_content_name_desc {
+    color: white;
+  }
+  .details_content {
+    background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url(../assets/model-1.jpg) center top;
+    background-size: cover;
+  }
+  .details {
+    display: flex;
+    background-color: #272727;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 50%;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  .details_footer_social {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 2em;
+    gap: 1.1rem;
+    color: white;
+    position: fixed;
+    float: left;
+    bottom: 0;
+    min-width: 5vw;
+    margin-bottom: 2vh;
+  }
+  .details_footer_copy {
+    font-size: 1.5em;
+    color: white;
+    justify-content: center;
+    position: fixed;
+    right: -95;
+    bottom: 85;
+    margin-bottom: 1vh;
+    min-height: 5vw;
+    text-align: center;
+    transform: rotate(-90deg);
+  }
+  .details_items {
+    display: flex;
+    flex-direction: column;
+  }
+  .details_items_item {
+    display: flex;
+    background-color: rgb(65, 65, 65);
+    flex-direction: column;
+    padding: 2%;
+    margin-bottom: 2vh;
+    border-bottom: #FF662F solid 2px;
+  }
+  .details_items_item h2, h4, h5, p {
+    margin: 0%;
+  }
+  .details_items_item h2 {
+    margin-top: 1vh;
+    color: #FF662F;
+    margin-bottom: 2vh;
+  }
+  .details_items_item h4 {
+    margin-bottom: 2vh;
+    font-size: 2rem;
+    color: white;
+  }
+  .details_items_item h5 {
+    margin-bottom: 2vh;
+    font-size: 1rem;
+    color: white;
+  }
+  .details_items_item p {
+    color: white;
+  }
+}
+@media screen and (min-width: 526px) and (max-width: 992px) {
+  .details_content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 50%;
+  }
+  .details_content_name_main {
+    color: #FF662F;
+    font-size: 3rem;
+  }
+  .details_content_name_desc {
+    color: white;
+  }
+  .details_content {
+    background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url(../assets/model-1.jpg) center top;
+    background-size: cover;
+  }
+  .details {
+    display: flex;
+    background-color: #272727;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 50%;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  .details_footer_social {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 2em;
+    gap: 1.1rem;
+    color: white;
+    position: fixed;
+    float: left;
+    bottom: 0;
+    min-width: 5vw;
+    margin-bottom: 2vh;
+  }
+  .details_footer_copy {
+    font-size: 1.5em;
+    color: white;
+    justify-content: center;
+    position: fixed;
+    right: -65;
+    bottom: 85;
+    margin-bottom: 1vh;
+    min-height: 5vw;
+    text-align: center;
+    transform: rotate(-90deg);
+  }
+  .details_items {
+    display: flex;
+    flex-direction: column;
+  }
+  .details_items_item {
+    display: flex;
+    background-color: rgb(65, 65, 65);
+    flex-direction: column;
+    padding: 2%;
+    margin-bottom: 2vh;
+    border-bottom: #FF662F solid 2px;
+  }
+  .details_items_item h2, h4, h5, p {
+    margin: 0%;
+  }
+  .details_items_item h2 {
+    margin-top: 1vh;
+    color: #FF662F;
+    margin-bottom: 2vh;
+  }
+  .details_items_item h4 {
+    margin-bottom: 2vh;
+    font-size: 2rem;
+    color: white;
+  }
+  .details_items_item h5 {
+    margin-bottom: 2vh;
+    font-size: 1rem;
+    color: white;
+  }
+  .details_items_item p {
+    color: white;
+  }
+}
+@media screen and (min-width: 992px) {
+  .details_content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 50%;
+  }
+  .details_content_name_main {
+    color: #FF662F;
+    font-size: 3rem;
+  }
+  .details_content_name_desc {
+    font-size: 2rem;
+    color: white;
+  }
+  .details_content {
+    background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url(../assets/model-1.jpg) center top;
+    background-size: cover;
+  }
+  .details {
+    display: flex;
+    background-color: #272727;
+    margin-left: 20px;
+    margin-right: 20px;
+    justify-content: center;
+    height: 50%;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  .details_footer_social {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 2em;
+    gap: 1.1rem;
+    color: white;
+    position: fixed;
+    float: left;
+    bottom: 0;
+    min-width: 5vw;
+    margin-bottom: 2vh;
+  }
+  .details_footer_copy {
+    font-size: 1.5em;
+    color: white;
+    justify-content: center;
+    position: fixed;
+    right: -65;
+    bottom: 85;
+    margin-bottom: 1vh;
+    min-height: 5vw;
+    text-align: center;
+    transform: rotate(-90deg);
+  }
+  .details_items {
+    display: flex;
+    flex-direction: column;
+  }
+  .details_items_item {
+    display: flex;
+    background-color: rgb(65, 65, 65);
+    flex-direction: column;
+    padding: 2%;
+    margin-bottom: 2vh;
+    border-bottom: #FF662F solid 2px;
+  }
+  .details_items_item h2, h4, h5, p {
+    margin: 0%;
+  }
+  .details_items_item h2 {
+    margin-top: 1vh;
+    color: #FF662F;
+    margin-bottom: 2vh;
+  }
+  .details_items_item h4 {
+    margin-bottom: 2vh;
+    font-size: 2rem;
+    color: white;
+  }
+  .details_items_item h5 {
+    margin-bottom: 2vh;
+    font-size: 1rem;
+    color: white;
+  }
+  .details_items_item p {
+    color: white;
+  }
+}/*# sourceMappingURL=about.css.map */
