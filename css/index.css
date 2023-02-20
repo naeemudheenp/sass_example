@@ -16,6 +16,14 @@ a {
   color: white;
 }
 
+.active {
+  color: #FF662F;
+}
+
+.active:hover {
+  color: white;
+}
+
 /* colors  */
 /* colors  */
 /* Screens   */
@@ -31,6 +39,14 @@ html, body {
 
 a {
   text-decoration: none;
+  color: white;
+}
+
+.active {
+  color: #FF662F;
+}
+
+.active:hover {
   color: white;
 }
 

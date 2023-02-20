@@ -11,6 +11,19 @@ html, body {
   overflow-x: hidden;
 }
 
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.active {
+  color: #FF662F;
+}
+
+.active:hover {
+  color: white;
+}
+
 .page_container_abt {
   background-color: #272727 !important;
   height: 100%;

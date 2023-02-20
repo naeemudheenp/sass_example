@@ -5,6 +5,9 @@
 
     menuButton.addEventListener('click',()=>{
 
+        menuButton.style.WebkitTransitionDuration='1s';
+        menuButton.style.webkitTransform = 'rotate(180deg)';
+
         let navBar=document.getElementById("navBar");
         navBar.classList.toggle("navBar_toggle");
      
