@@ -1,12 +1,11 @@
 
 
-
+    let rotateStatus=false;
     let menuButton = document.getElementById('menuButton');
 
     menuButton.addEventListener('click',()=>{
 
-        menuButton.style.WebkitTransitionDuration='1s';
-        menuButton.style.webkitTransform = 'rotate(180deg)';
+        rotate();
 
         let navBar=document.getElementById("navBar");
         navBar.classList.toggle("navBar_toggle");
@@ -24,4 +23,19 @@
         
         
     })
+
+    function rotate(){
+        if(rotateStatus){
+            menuButton.style.transitionDuration='1s';
+            menuButton.style.transform = 'rotate(360deg)';
+            rotateStatus=false;
+        }
+        else{
+            menuButton.style.transitionDuration='1s';
+            menuButton.style.transform = 'rotate(-360deg)';
+            rotateStatus=true;
+        }
+      
+      
+    }
 
